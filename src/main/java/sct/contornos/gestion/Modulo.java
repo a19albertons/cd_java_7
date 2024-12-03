@@ -69,5 +69,12 @@ public class Modulo {
         return "Modulo{" + "codigo=" + codigo + ", nombre=" + nombre + ", descripcion=" + descripcion + ", horas=" + horas + ", sesiones=" + sesiones + '}';
     }
     
+    public Integer sesionesAP(){
+        
+    }
+    
+    public Integer sesionesPD(){
+        
+    }
     
 }
