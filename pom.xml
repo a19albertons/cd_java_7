@@ -10,4 +10,19 @@
         <maven.compiler.release>17</maven.compiler.release>
         <exec.mainClass>sct.contornos.A19albertons</exec.mainClass>
     </properties>
+    <dependencies>
+        <!-- MySQL JDBC Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.1.0</version>
+        </dependency>
+
+        <!-- Hibernate Core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.3.2.Final</version>
+        </dependency>
+    </dependencies>
 </project>
