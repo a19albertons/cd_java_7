@@ -79,4 +79,8 @@ public class Centro {
         return "Centro{" + "codigo=" + codigo + ", nombre=" + nombre + ", localidad=" + localidad + ", calle=" + calle + ", numero=" + numero + ", codigoPostal=" + codigoPostal + '}';
     }
     
+    public String getDirrecion() {
+        return calle+" "+numero+" "+localidad+" CP: "+codigoPostal;
+    }
+    
 }
