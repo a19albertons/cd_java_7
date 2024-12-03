@@ -70,11 +70,11 @@ public class Modulo {
     }
     
     public Integer sesionesAP(){
-        
+        return 0;
     }
     
     public Integer sesionesPD(){
-        
+        return 0;
     }
     
 }
