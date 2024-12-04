@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  *
- * @author ladmin
+ * @author A19AlbertoNS
  */
 public class Alumno extends Persona{
     String codigoXade;

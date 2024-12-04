@@ -4,7 +4,7 @@ package sct.contornos.gestion;
 
 /**
  *
- * @author ladmin
+ * @author A19AlbertoNS
  */
 public class Ciclo {
     String codigo;

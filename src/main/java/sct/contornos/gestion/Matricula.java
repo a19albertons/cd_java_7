@@ -6,7 +6,7 @@ import sct.contornos.persona.Alumno;
 
 /**
  *
- * @author ladmin
+ * @author A19AlbertoNS
  */
 public class Matricula {
     Alumno Alumno;
