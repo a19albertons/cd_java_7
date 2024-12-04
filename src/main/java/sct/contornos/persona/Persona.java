@@ -9,13 +9,13 @@ import java.util.Date;
  * @author A19AlbertoNS
  */
 public class Persona {
-    String dni;
-    String nombre;
-    String apellido1;
-    String apellido2;
-    String correo;
-    Integer movil;
-    Date fecNacimiento;
+    protected String dni;
+    protected String nombre;
+    protected String apellido1;
+    protected String apellido2;
+    protected String correo;
+    protected Integer movil;
+    protected Date fecNacimiento;
 
     public Persona() {
     }

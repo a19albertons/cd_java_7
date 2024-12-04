@@ -7,7 +7,7 @@ package sct.contornos.gestion;
  * @author A19AlbertoNS
  */
 public class Nivel {
-    String nivel;
+    private String nivel;
 
     public Nivel() {
     }

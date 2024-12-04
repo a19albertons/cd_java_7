@@ -9,10 +9,10 @@ import sct.contornos.persona.Alumno;
  * @author A19AlbertoNS
  */
 public class Matricula {
-    Alumno Alumno;
-    Modulo Modulo;
-    Integer nota;
-    String Curso;
+    private Alumno Alumno;
+    private Modulo Modulo;
+    private Integer nota;
+    private String Curso;
 
     public Matricula() {
     }

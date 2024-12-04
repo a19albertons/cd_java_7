@@ -7,12 +7,12 @@ package sct.contornos.gestion;
  * @author A19AlbertoNS
  */
 public class Centro {
-    Integer codigo;
-    String nombre;
-    String localidad;
-    String calle;
-    String numero;
-    String codigoPostal;
+    private Integer codigo;
+    private String nombre;
+    private String localidad;
+    private String calle;
+    private String numero;
+    private String codigoPostal;
 
     public Centro() {
     }

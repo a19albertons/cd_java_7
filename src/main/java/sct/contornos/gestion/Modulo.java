@@ -7,11 +7,11 @@ package sct.contornos.gestion;
  * @author A19AlbertoNS
  */
 public class Modulo {
-    String codigo;
-    String nombre;
-    String descripcion;
-    Integer horas;
-    Integer sesiones;
+    private String codigo;
+    private String nombre;
+    private String descripcion;
+    private Integer horas;
+    private Integer sesiones;
 
     public Modulo() {
     }

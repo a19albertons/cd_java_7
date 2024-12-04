@@ -9,10 +9,10 @@ import java.util.Date;
  * @author A19AlbertoNS
  */
 public class Profesor extends Persona {
-    String especialidad;
-    String cuerpo;
-    boolean sustituto;
-    Date fecOposicion;
+    private String especialidad;
+    private String cuerpo;
+    private boolean sustituto;
+    private Date fecOposicion;
 
     public Profesor() {
     }

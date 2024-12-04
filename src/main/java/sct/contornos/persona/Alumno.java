@@ -9,8 +9,8 @@ import java.util.Date;
  * @author A19AlbertoNS
  */
 public class Alumno extends Persona{
-    String codigoXade;
-    boolean autorizaTutores;
+    private String codigoXade;
+    private boolean autorizaTutores;
 
     public Alumno() {
     }

@@ -7,10 +7,10 @@ package sct.contornos.gestion;
  * @author A19AlbertoNS
  */
 public class Ciclo {
-    String codigo;
-    String nombre;
-    Nivel Nivel;
-    Centro Centro;
+    private String codigo;
+    private String nombre;
+    private Nivel Nivel;
+    private Centro Centro;
 
     public Ciclo() {
     }
