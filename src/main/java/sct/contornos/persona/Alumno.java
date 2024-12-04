@@ -2,21 +2,25 @@
 
 package sct.contornos.persona;
 
+import java.util.Date;
+
 /**
  *
  * @author ladmin
  */
-public class Alumno {
+public class Alumno extends Persona{
     String codigoXade;
     boolean autorizaTutores;
 
     public Alumno() {
     }
 
-    public Alumno(String codigoXade, boolean autorizaTutores) {
+    public Alumno(String codigoXade, boolean autorizaTutores, String dni, String nombre, String apellido1, String apellido2,String correo, Integer movil, Date fecNacimiento) {
+        super(dni, nombre, apellido1, apellido2, correo, movil, fecNacimiento);
         this.codigoXade = codigoXade;
         this.autorizaTutores = autorizaTutores;
     }
+
 
     public String getCodigoXade() {
         return codigoXade;

@@ -8,7 +8,7 @@ import java.util.Date;
  *
  * @author ladmin
  */
-public class Profesor {
+public class Profesor extends Persona {
     String especialidad;
     String cuerpo;
     boolean sustituto;
@@ -17,12 +17,15 @@ public class Profesor {
     public Profesor() {
     }
 
-    public Profesor(String especialidad, String cuerpo, boolean sustituto, Date fecOposicion) {
+    public Profesor(String especialidad, String cuerpo, boolean sustituto, Date fecOposicion, String dni, String nombre, String apellido1, String apellido2, String correo, Integer movil, Date fecNacimiento) {
+        super(dni, nombre, apellido1, apellido2, correo, movil, fecNacimiento);
         this.especialidad = especialidad;
         this.cuerpo = cuerpo;
         this.sustituto = sustituto;
         this.fecOposicion = fecOposicion;
     }
+
+    
 
     public String getEspecialidad() {
         return especialidad;
