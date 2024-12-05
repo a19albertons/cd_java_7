@@ -70,11 +70,11 @@ public class Modulo {
     }
     
     public Integer sesionesAP(){
-        return 0;
+        return (int) Math.round(this.sesiones * 0.06);
     }
     
     public Integer sesionesPD(){
-        return 0;
+        return (int) Math.round(this.sesiones * 0.1);
     }
     
 }
