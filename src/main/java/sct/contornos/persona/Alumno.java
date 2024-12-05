@@ -40,7 +40,7 @@ public class Alumno extends Persona{
 
     @Override
     public String toString() {
-        return "Alumno{" + "codigoXade=" + codigoXade + ", autorizaTutores=" + autorizaTutores + '}';
+        return "Alumno{"+ super.toString() + "codigoXade=" + codigoXade + ", autorizaTutores=" + autorizaTutores + '}';
     }
     
     
