@@ -2,7 +2,7 @@ package sct.contornos;
 
 /**
  *
- * @author a19albertons
+ * @author A19AlbertoNS
  */
 public class Gestion {
 
