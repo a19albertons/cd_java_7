@@ -13,6 +13,7 @@ public class Alumno extends Persona{
     private boolean autorizaTutores;
 
     public Alumno() {
+        super();
     }
 
     public Alumno(String codigoXade, boolean autorizaTutores, String dni, String nombre, String apellido1, String apellido2,String correo, Integer movil, Date fecNacimiento) {

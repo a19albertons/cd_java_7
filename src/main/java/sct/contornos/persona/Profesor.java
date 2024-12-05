@@ -15,6 +15,7 @@ public class Profesor extends Persona {
     private Date fecOposicion;
 
     public Profesor() {
+        super();
     }
 
     public Profesor(String especialidad, String cuerpo, boolean sustituto, Date fecOposicion, String dni, String nombre, String apellido1, String apellido2, String correo, Integer movil, Date fecNacimiento) {
